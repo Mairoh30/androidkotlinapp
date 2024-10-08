@@ -2,6 +2,6 @@
     <string name="app_name">AndroidKotlinApp</string>
     <string name="number">0</string>
     <string name="add_number">Add Number</string>
-    <string name="kurang_number">Kurang Number</string>
-    <string name="delete_number">Hapus Number</string>
+    <string name="reset_number">Kurang Number</string>
+    <string name="substract_number">Hapus Number</string>
 </resources>

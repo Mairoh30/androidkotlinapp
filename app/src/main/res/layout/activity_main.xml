@@ -26,13 +26,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/kurang_number"
-        android:onClick="kurangi"/>
+        android:text="@string/reset_number"
+        android:onClick="resetNumber"/>
     <Button
-        android:id="@+id/btnDeleteNumber"
+        android:id="@+id/btnSubstractNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/delete_number"
-        android:onClick="deletenumber"/>
+        android:text="@string/substract_number"
+        android:onClick="substractNumber"/>
 </LinearLayout>

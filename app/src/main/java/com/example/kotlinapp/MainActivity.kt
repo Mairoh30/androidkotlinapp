@@ -11,12 +11,12 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvCounter: TextView
     private lateinit var btnAddNumber: Button
     private lateinit var btnResetNumber: Button
-    private lateinit var btnDeleteNumber: Button
+    private lateinit var btnSubstractNumber: Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main) //layout binding
         tvCounter = findViewById(R.id.tvCounter)
         btnAddNumber = findViewById(R.id.btnAddNumber)
         tvCounter.text = "1"
@@ -26,12 +26,12 @@ class MainActivity : AppCompatActivity() {
         val nextVal = currVal + 1
         tvCounter.text = nextVal.toString()
     }
-    fun kurangi(v: View) {
+    fun resetNumber(v: View) {
         val currVal = tvCounter.text.toString().toInt()
         val nextVal = currVal - 1
         tvCounter.text = nextVal.toString()
     }
-    fun deletenumber(v: View) {
+    fun substractNumber(v: View) {
         val currVal = tvCounter.text.toString().toInt()
         val nextVal = '0'
         tvCounter.text = nextVal.toString()
