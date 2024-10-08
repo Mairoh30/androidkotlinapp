@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvCounter: TextView
     private lateinit var btnAddNumber: Button
     private lateinit var btnResetNumber: Button
-    private lateinit var btnSubstractNumber: Button
+    private lateinit var btnSubtractNumber: Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         val nextVal = currVal - 1
         tvCounter.text = nextVal.toString()
     }
-    fun substractNumber(v: View) {
+    fun subtractNumber(v: View) {
         val currVal = tvCounter.text.toString().toInt()
         val nextVal = '0'
         tvCounter.text = nextVal.toString()
